@@ -1,13 +1,4 @@
 type Size = 'small' | 'medium' | 'large';
-type User = string | number;
-
-/* type Product = {
-  id: string | number;
-  title: string;
-  createdAt: Date;
-  stock: number;
-  sizes: Size;
-}; */
 
 interface Product {
     id: string | number;
