@@ -6,7 +6,13 @@ export type UserId = string | number;
 
 export interface Product extends BaseModel {
     title: string;
+    image: string;
+    description: string;
     stock: number;
     sizes?: Size;
+    color: string;
+    price: number;
     category: Category;
+    isNew: boolean;
+    tags: string[];
   };
